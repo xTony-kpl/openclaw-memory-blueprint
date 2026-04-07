@@ -67,3 +67,6 @@ In practice that means:
 - then the raw fragment should be moved into `memory/archive/YYYY/`
 
 So the structure can still work without that flow, but it is strongly recommended because it explains why archive exists and how raw session traces become clean daily memory.
+
+## A personal note
+My assistant Jarvis has been running under this memory structure for 33 days now and it has been good and pretty reliable for the most part, so this structure has been battefield tested to that extent. It is not over nor finished (it never is) but is in a good state to share now.
