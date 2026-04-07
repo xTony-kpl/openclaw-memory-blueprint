@@ -16,7 +16,7 @@ It intentionally contains:
 - generalized rules
 - no personal memory content
 
-Think of this memory system like a small office with labeled boxes, not like a human brain.
+## Think of this memory system like a small office with labeled boxes, not like a human brain.
 
 There is not one giant magical memory file.
 There are different places for different kinds of things.
