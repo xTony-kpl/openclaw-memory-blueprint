@@ -1,4 +1,4 @@
-# Memory Template
+# Memory Blueprint
 
 A shareable memory structure for assistant workspaces.
 
