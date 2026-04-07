@@ -81,6 +81,34 @@ This template is intentionally memory-focused, not a full agent framework.
 It excludes self-improvement memory by design.
 It is designed for OpenClaw workspaces.
 
+## Important limitation
+
+This system does not imply:
+- a hidden perfect memory of every chat forever
+- flawless instant recall of everything ever said
+- human-style background remembering
+
+If something matters and never gets written down properly, it can be lost across resets.
+That is why the file system matters so much.
+
+## Why this is good
+
+This system is less magical, but better operationally.
+
+Why:
+- it survives resets
+- it is inspectable
+- it can be edited
+- mistakes can be corrected
+- it can be kept clean
+- old junk does not automatically become truth
+
+So instead of fake AI mysticism, it is more like:
+
+notes + folders + search + rules
+
+That is much more trustworthy.
+
 ## OpenClaw note
 
 This structure makes the most sense if you use the raw session-summary flow too.
