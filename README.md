@@ -1,5 +1,3 @@
-# openclaw-memory-blueprint
-Memory structure and maintenance template for OpenClaw workspaces
 # Memory Template
 
 A shareable memory structure for assistant workspaces.
@@ -63,7 +61,7 @@ It is designed for OpenClaw workspaces.
 This structure makes the most sense if you use the raw session-summary flow too.
 
 In practice that means:
-- OpenClaw's built-in `session-memory` plugin leaves a raw session-memory fragment such as `memory/YYYY-MM-DD-slug.md` on `/new` or `/reset`
+- OpenClaw's built-in `session-memory` plugin leave a raw session-memory fragment such as `memory/YYYY-MM-DD-slug.md` on `/new` or `/reset`
 - that raw file is not the canonical daily note
 - the assistant should distill what matters into `memory/YYYY-MM-DD.md`
 - then the raw fragment should be moved into `memory/archive/YYYY/`
