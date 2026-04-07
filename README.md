@@ -16,6 +16,25 @@ It intentionally contains:
 - generalized rules
 - no personal memory content
 
+Think of this memory system like a small office with labeled boxes, not like a human brain.
+
+There is not one giant magical memory file.
+There are different places for different kinds of things.
+
+Imagine a careful robot assistant in a workshop.
+
+When something happens, it does not just "remember it in its head forever."
+
+Instead:
+- if it is about who we are, it goes on the important wall
+- if it is a stable fact, it goes in the small permanent notebook
+- if it is something from today, it goes on today's page
+- if it is about a project or a decision, it goes in the right folder
+- if it is a long messy conversation log, it goes in the archive box
+- then a search system helps find it later
+
+So the memory system is more like a tidy librarian system than a brain.
+
 ## Included
 
 - `AGENTS.md` — memory-specific operating rules only
