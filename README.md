@@ -52,6 +52,9 @@ So the memory system is more like a tidy librarian system than a brain.
 - `memory/daily/YYYY/MM/README.md` — historical canonical daily-note location
 - `memory/archive/YYYY/README.md` — raw history/archive location
 - `docs/` — supporting explanation
+-  This template also includes an optional heartbeat-driven maintenance layer. If you use OpenClaw heartbeat or     
+ scheduled maintenance, HEARTBEAT.md defines the maintenance procedure and memory/heartbeat-state.json stores     
+ lightweight maintenance state such as weekly review timing. 
 
 ## Design goals
 
