@@ -38,7 +38,7 @@ So the memory system is more like a tidy librarian system than a brain.
 ## Included
 
 - `AGENTS.md` — memory-specific operating rules only
-- HEARTBEAT.md — optional heartbeat-driven maintenance procedure                                                 
+- `HEARTBEAT.md` — optional heartbeat-driven maintenance procedure                                                 
 - `SOUL.md` — memory/recall/continuity discipline only
 - `MEMORY.md` — minimal long-term memory surface
 - `memory/INDEX.md` — memory map
@@ -48,6 +48,7 @@ So the memory system is more like a tidy librarian system than a brain.
 - `memory/projects.md` — cross-session project state
 - `memory/decisions.md` — durable decisions
 - `memory/preferences.md` — stable non-core preferences
+- `memory/heartbeat-state.json` — lightweight state for heartbeat maintenance and weekly review timing
 - `memory/daily/YYYY/MM/README.md` — historical canonical daily-note location
 - `memory/archive/YYYY/README.md` — raw history/archive location
 - `docs/` — supporting explanation
