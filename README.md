@@ -42,13 +42,14 @@ It intentionally contains:
 
 ## Suggested use
 
-1. Copy this folder into a fresh assistant workspace.
-2. Adapt `AGENTS.md` and `SOUL.md` to your runtime.
-3. Keep `MEMORY.md` minimal.
-4. Use daily notes for active context and audit trail.
-5. Promote durable project and decision state into topic files in the same work block.
-6. Move older canonical daily notes into `memory/daily/YYYY/MM/`.
-7. Keep raw logs, transcripts, and long investigations in `memory/archive/YYYY/`.
+ 1. Copy this folder into a fresh assistant workspace.                                                            
+ 2. Adapt AGENTS.md and SOUL.md to your runtime.                                                                  
+ 3. From there, the assistant should:                                                                             
+     - keep MEMORY.md minimal                                                                                     
+     - use daily notes for active context and audit trail                                                         
+     - promote durable project and decision state into topic files in the same work block                         
+     - move older canonical daily notes into memory/daily/YYYY/MM/                                                
+     - keep raw logs, transcripts, and long investigations in memory/archive/YYYY/
 
 ## Scope
 
