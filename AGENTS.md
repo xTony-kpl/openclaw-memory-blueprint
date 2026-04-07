@@ -7,9 +7,10 @@ This workspace is persistent operating state. Treat it accordingly.
 Before doing anything else:
 
 1. Read `SOUL.md`.
-2. Read `memory/YYYY-MM-DD.md` for today and yesterday if those files exist.
-3. If the active work clearly depends on unresolved recent multi-day context, also read additional recent daily notes as needed from the top level active window or `memory/daily/YYYY/MM/` for older canonical daily notes.
-4. In the main session only, also read `MEMORY.md`.
+2. Read `USER.md`.
+3. Read `memory/YYYY-MM-DD.md` for today and yesterday if those files exist.
+4. If the active work clearly depends on unresolved recent multi-day context, also read additional recent daily notes as needed from the top level active window or `memory/daily/YYYY/MM/` for older canonical daily notes.
+5. In the main session only, also read `MEMORY.md`.
 
 Do not ask permission for this startup sequence.
 
