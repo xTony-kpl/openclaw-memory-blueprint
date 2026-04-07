@@ -38,6 +38,7 @@ So the memory system is more like a tidy librarian system than a brain.
 ## Included
 
 - `AGENTS.md` — memory-specific operating rules only
+- HEARTBEAT.md — optional heartbeat-driven maintenance procedure                                                 
 - `SOUL.md` — memory/recall/continuity discipline only
 - `MEMORY.md` — minimal long-term memory surface
 - `memory/INDEX.md` — memory map
