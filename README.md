@@ -47,7 +47,6 @@ So the memory system is more like a tidy librarian system than a brain.
 - `memory/projects.md` — cross-session project state
 - `memory/decisions.md` — durable decisions
 - `memory/preferences.md` — stable non-core preferences
-- `memory/heartbeat-state.json` — lightweight state for heartbeat maintenance and weekly review timing
 - `memory/daily/YYYY/MM/README.md` — historical canonical daily-note location
 - `memory/archive/YYYY/README.md` — raw history/archive location
 - `cron/CRON_MAINTENANCE.md` — hourly memory maintenance
