@@ -62,3 +62,16 @@ Default rules:
 - When a lesson should affect future operation, update the relevant instruction file.
 - When a mistake should not be repeated, document it.
 
+## Cron policy
+
+Use cron when:
+- timing must be exact
+- the task should run in isolation
+- a one-shot reminder is needed
+- direct scheduled delivery matters
+- recurring maintenance should run on a fixed schedule
+
+- Cron maintenance defaults (`cron/CRON_MAINTENANCE.md`):
+- session-memory cleanup
+- unsaved-important-state check with explicit per-target verdicts
+- do not store secrets
