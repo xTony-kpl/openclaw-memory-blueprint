@@ -30,7 +30,7 @@ Run this check on every cron maintenance trigger after session-memory cleanup.
 3. Count only meaningful items such as completed work blocks, verified findings, applied fixes, durable decisions, and cross-session project state changes.
 4. Do not write speculative thoughts, partial scratch notes, or routine chatter just to satisfy the check.
 5. If important state is missing, append only the net-new durable facts to today's canonical daily note using the existing section rules.
-6. If the update creates or changes durable project, decision, or self-improvement state, update the appropriate memory files in the same work block, including `memory/self-improvement.md` when that distilled layer changed.
+6. If the update creates or changes durable project, decision, update the appropriate memory files in the same work block, 
 7. Before ending this check, make an explicit verdict for each target:
    - today's canonical daily note → updated / no change
    - `memory/projects.md` → updated / no change
