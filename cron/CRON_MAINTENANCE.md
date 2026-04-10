@@ -35,6 +35,5 @@ Run this check on every cron maintenance trigger after session-memory cleanup.
    - today's canonical daily note → updated / no change
    - `memory/projects.md` → updated / no change
    - `memory/decisions.md` → updated / no change
-   - `memory/self-improvement.md` → updated / no change / not relevant
 8. Do not treat this check as complete until each target has been explicitly judged, even if the final verdict is `no change`.
 9. Add a short audit line to today's canonical daily note describing the memory write only if something was actually written.
