@@ -1,6 +1,6 @@
 # Overview
 
-This template separates memory into layers so each file has a clear role.
+This template separates memory into layers so each file has a clear role, and uses cron maintenance as a backstop to keep those layers clean over time.
 
 ## Layers
 
