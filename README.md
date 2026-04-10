@@ -37,8 +37,7 @@ So the memory system is more like a tidy librarian system than a brain.
 
 ## Included
 
-- `AGENTS.md` — memory-specific operating rules only
-- `HEARTBEAT.md` — optional heartbeat-driven maintenance procedure                                                 
+- `AGENTS.md` — memory-specific operating rules only                                                 
 - `SOUL.md` — memory/recall/continuity discipline only
 - `MEMORY.md` — minimal long-term memory surface
 - `memory/INDEX.md` — memory map
@@ -51,10 +50,8 @@ So the memory system is more like a tidy librarian system than a brain.
 - `memory/heartbeat-state.json` — lightweight state for heartbeat maintenance and weekly review timing
 - `memory/daily/YYYY/MM/README.md` — historical canonical daily-note location
 - `memory/archive/YYYY/README.md` — raw history/archive location
-- `docs/` — supporting explanation
--  This template also includes an optional heartbeat-driven maintenance layer. If you use OpenClaw heartbeat or     
- scheduled maintenance, HEARTBEAT.md defines the maintenance procedure and memory/heartbeat-state.json stores     
- lightweight maintenance state such as weekly review timing. 
+- `cron/CRON_MAINTENANCE.md` — hourly memory maintenance
+- `docs/` — supporting explanation 
 
 ## Design goals
 
