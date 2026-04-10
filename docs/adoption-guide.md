@@ -6,6 +6,8 @@
 2. Keep `MEMORY.md` minimal.
 3. Add `projects.md` and `decisions.md` once durable state starts accumulating.
 4. Review weekly and promote durable state out of daily notes.
+5. Add a cron maintenance procedure (for example `cron/CRON_MAINTENANCE.md`) as a reliability backstop, not as a replacement for normal in-session memory writes.
+6. Start with a 60-minute cron interval, then tune cadence based on workload and risk tolerance.
 
 ## Common failure modes
 
