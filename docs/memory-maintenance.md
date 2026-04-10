@@ -10,7 +10,7 @@ The structure is the set of files:
 
 The maintenance layer is what keeps those files clean and up to date over time.
 
-But the first layer of maintenance is not heartbeat or cron.
+But the first layer of maintenance is not scheduled automation.
 The assistant should already maintain memory during normal work.
 
 That means:
@@ -20,10 +20,10 @@ That means:
 - archive raw traces after distillation
 
 The default expectation is: write important memory directly from the active session while doing the work.
-Do not treat heartbeat or cron as the primary place where important state first gets written.
+Do not treat cron as the primary place where important state first gets written.
 
-Heartbeat or cron are the backstop.
-They help catch what was missed, reduce drift, and make periodic cleanup more reliable.
+Cron is the backstop.
+It helps catch what was missed, reduce drift, and make periodic cleanup more reliable.
 
 ## Why maintenance matters
 
@@ -41,11 +41,15 @@ So a good memory structure also needs a maintenance habit.
 
 ## In OpenClaw
 
-In OpenClaw, the maintenance layer often connects to:
+In OpenClaw, the maintenance layer commonly runs through:
 - the built-in `session-memory` plugin
-- `HEARTBEAT.md`
 - cron jobs
 - periodic review files such as `memory/WEEKLY_REVIEW.md`
+
+A practical default is a scheduled cron trigger that runs every 60 minutes and executes a maintenance procedure file such as:
+- `cron/CRON_MAINTENANCE.md`
+
+Use 60 minutes as a baseline, then adjust cadence to workload and risk tolerance.
 
 ## Raw fragment cleanup
 
@@ -57,36 +61,20 @@ A common OpenClaw flow is:
 
 This is one reason archive exists as part of the normal memory lifecycle.
 
-## Heartbeat and cron
+## Cron maintenance
 
-Heartbeat and cron are not the memory structure itself.
-They are backstop tools that help keep the memory structure maintained when normal operation was incomplete or when periodic review is useful.
+Cron is not the memory structure itself.
+It is a backstop tool that helps keep the memory structure maintained when normal operation was incomplete or when periodic review is useful.
 
-When they do run, they should not look only at files already on disk.
-They should also use the current session context plus other very recent completed work when deciding whether memory writes or promotions are still missing.
+When cron runs, it should not look only at files already on disk.
+It should also use the current session context plus other very recent completed work when deciding whether memory writes or promotions are still missing.
 
-Examples of what they can do:
+Examples of what cron maintenance can do:
 - check for raw fragments that still need consolidation
 - update the canonical daily note with important net-new state
 - promote durable project or decision state into topic files
 - reclassify stale or superseded decisions
 - run weekly cleanup and distillation
-
-## Which one to use
-
-### Heartbeat
-Use heartbeat when:
-- timing can drift a little
-- multiple lightweight checks can be batched together
-- recent session context matters
-
-### Cron
-Use cron when:
-- the maintenance should run on a real schedule
-- timing matters
-- you want a more reliable periodic trigger
-
-In many real setups, cron is the better fit for memory maintenance because it is a true scheduler.
 
 ## Practical rule
 
