@@ -1,4 +1,6 @@
 # Memory Blueprint
+<img width="6001" height="600" alt="7d756d56-3bfd-4319-abb0-e047759b88da" src="https://github.com/user-attachments/assets/5598057d-d12e-4138-9a9b-4eb971eff921" />
+
 
 A shareable memory structure for assistant workspaces.
 
